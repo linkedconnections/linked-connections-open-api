@@ -10,7 +10,7 @@ Clone this repository and run `npm install` on the cloned folder.
 Run it using the following command inside the cloned folder:
 
 ```bash
-node bin/http-server -p PORT
+node bin/http-server -p PORT ./docs/
 ```
 
 The `PORT` parameter is the TCP port where the HTTP server will listen for requests. The default is 8080. Once run, you can access it on:
