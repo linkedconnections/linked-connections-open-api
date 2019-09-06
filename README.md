@@ -13,4 +13,8 @@ Run it using the following command inside the cloned folder:
 node bin/http-server -p PORT
 ```
 
-The `PORT` parameter is the TCP port where the HTTP server will listen for requests. The default is 8080.
+The `PORT` parameter is the TCP port where the HTTP server will listen for requests. The default is 8080. Once run, you can access it on:
+
+```http
+http://localhost:PORT/index.html
+```
